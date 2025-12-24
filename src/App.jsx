@@ -32,7 +32,7 @@ function App() {
         setError(err.message)
         console.error('Ошибка:', err)
       } finally {
-        setLoading(false)
+         setLoading(false)
       }
     }
     fetchWeather()
